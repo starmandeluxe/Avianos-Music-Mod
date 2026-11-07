@@ -1,0 +1,16 @@
+gml_GlobalScript_scr50_Meta:
+  - type: findreplace
+    find: |-
+      global.mGameTitleMusic[arg0] = -1;
+    code: |-
+      global.mGameTitleMusic[arg0] = bgm50_title;
+  - type: findreplace
+    find: |-
+      global.mGameTitleMusicLoop[arg0] = false;
+    code: |-
+      global.mGameTitleMusicLoop[arg0] = true;
+  - type: findreplace
+    find: |-
+      global.mGameAttractModeTimer[arg0] = 800;
+    code: |-
+      global.mGameAttractModeTimer[arg0] = 0;

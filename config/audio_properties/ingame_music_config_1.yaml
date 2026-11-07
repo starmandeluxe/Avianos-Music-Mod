@@ -1,0 +1,10 @@
+bgm50_ingame1:
+  type: .ogg
+  embedded: true
+  compressed: true
+  effects: 0
+  volume: 1
+  pitch: 1
+  audiogroup_index: 52
+  audiofile_id: 8
+  preload: true

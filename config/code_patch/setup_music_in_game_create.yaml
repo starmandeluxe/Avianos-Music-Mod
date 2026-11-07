@@ -1,0 +1,6 @@
+gml_Object_o50_Game_Create_0:
+  - type: findappend
+    find: |-
+      combatWinner = ATTACKER;
+    code: |-
+      ingameMusicPlaying = false;

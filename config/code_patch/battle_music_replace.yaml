@@ -1,0 +1,6 @@
+gml_Object_o50_Game_Other_18:
+  - type: findreplace
+    find: |-
+      scrBGM(bgm50_battle);
+    code: |-
+      scr50_BattleBGM();

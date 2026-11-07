@@ -1,0 +1,10 @@
+bgm50_title:
+  type: .ogg
+  embedded: true
+  compressed: true
+  effects: 0
+  volume: 1
+  pitch: 1
+  audiogroup_index: 52
+  audiofile_id: 12
+  preload: true

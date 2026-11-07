@@ -1,0 +1,7 @@
+gml_Object_o50_Game_Other_21:
+  - type: findappend
+    find: |-
+      scenarioMax = min(highestScenario, NUM_SCENARIOS - 1);
+    code: |-
+      scrBGM(bgm50_intro, true);
+      ingameMusicPlaying = false;
